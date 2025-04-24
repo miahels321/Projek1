@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-image: url(./images/bg-4k3.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+}
+header{
+width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0 ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  font-size: 30px;
+
+ 
+}
+nav{
+   
+    display: flex;
+  
+}
+ul{
+
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+li{
+    border: 2px solid rgb(81, 180, 81);
+   padding: 5px; 
+  
+}
+header img{
+height: 100px;
+
+float: left;
+
+}
+a{
+    text-decoration: none;
+}
+.plutanje{
+    width: 100%;
+    
+}
+.plutanje ul{
+    float: right;
+  margin: 5px;
+    height: auto;
+    color: black;
+}
+.plutanje li,a{
+    border: 0;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    max-height: 300px;
+}
+h2{
+    float: left;
+}
+
+button{
+  border: 2px solid rgb(121, 167, 226);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(88, 87, 87);
+  box-shadow: 0 10px 5px 0 rgb(7, 39, 124);
+}
+a:hover{
+transition: 1.25s linear;
+color: rgb(255, 50, 50);
+}
+h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+p{
+  font-family: 'Playfair Display', serif;
+}
+i{color: rgb(80, 164, 219);
+margin: 2px;
+}
+h3{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+footer{
+  background-color: rgb(0, 136, 255);
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  footer p{
+    color: white;
+    display: flex;
+    flex-basis: 40%;
+  }
+  @media(max-width:768px){
+      .logo{
+          display: none;
+      }
+    ul{
+      
+      display: flex;
+      flex-direction: column;
+    }
+    li{
+      width: 100%;
+    }
+    nav{
+      line-height: 10px;
+      width: 50%;
+      
+    }
+    .plutanje ul{
+        float: none;
+        text-align: center;
+      margin: 5px;
+        height: auto;
+        color: black;
+    }
+  }
